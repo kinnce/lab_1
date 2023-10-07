@@ -19,10 +19,10 @@ public class Main {
     }
     private static void printInteface(){
         List<Shape> list = new ArrayList<>();
-        list.add(new Triangle(0,0,0,4,4,0, Color.RED));
-        list.add(new Circle(3,3,2,Color.WHITE));
-        list.add(new Circle(2,5,4,Color.YELLOW));
+        list.add(new Triangle(0,2,0,2,2,0, Color.RED));
+        list.add(new Circle(3,3,2,Color.GREEN));
         list.add(new Rectangle(1,1,5,2));
+        list.add(new Rectangle(6,5,1, 10));
         list.add(new Point(100,100));
         list.add(new Triangle(-2,3,-4,3,2,5));
         ShapeServiceImpl Interface = new ShapeServiceImpl();
